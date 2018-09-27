@@ -2,7 +2,7 @@
 
 @section('adminlte_css')
 <link rel="stylesheet" href="{{ asset('vendor/adminlte/plugins/iCheck/square/blue.css') }}">
-<link rel="stylesheet" href="{{ asset('vendor/adminlte/css/auth.css') }}">
+<!-- <link rel="stylesheet" href="{{ asset('vendor/adminlte/css/auth.css') }}"> -->
 @yield('css')
 @stop
 
@@ -12,7 +12,7 @@
 <div class="login-box">
     <div class="login-box-body">
         <div class="login-logo">
-            <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>Porteira</b> Adentro') !!}</a>
+            <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">ACESSO RESTRITO</a>
         </div>
         <div class="login-box-msg">
             <i class="fa fa-user-circle fa-5x"></i>

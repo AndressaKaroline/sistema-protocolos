@@ -54,8 +54,8 @@
                 </div>
             </div>
             <div class="center-block">
-                <button type="submit" class="btn btn-success">Alterar Dados</button>
-                <button type="submit" class="btn btn-danger">Cancelar</button>
+                <button type="submit" class="btn btn-success col-md-offset-4">Alterar Dados</button>
+                <a href="home" class="btn btn-danger col-md-offset-1">Cancelar</a>
             </div>
         </form>
     </div>

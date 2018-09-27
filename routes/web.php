@@ -25,6 +25,8 @@ $this->group(['middleware' => ['auth'], 'namespace' => 'Admin', 'prefix' => 'adm
     $this->post('/perfil', 'AdminController@profileUpdate')->name('profileUpdate');
     $this->get('/perfilSenha', 'AdminController@profilePassword')->name('profilePassword');
     $this->post('/perfilSenha', 'AdminController@profilePasswordUpdate')->name('profilePasswordUpdate');
+
+
 });
 
 $this->get('/', 'Site\SiteController@index')->name('home');
